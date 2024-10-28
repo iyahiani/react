@@ -15,12 +15,13 @@ const AppLink = () => {
       </a>
   )
 }
+const Logo = ({img}) => <img src={img} className="App-logo" alt="logo" />
 function App() {
   const name="React"
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Logo img={logo}></Logo>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
