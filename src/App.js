@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import logoAngular from './logo-angular.svg';
 import './App.css';
 
 
@@ -22,6 +23,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Logo img={logo}></Logo>
+          <Logo img={logoAngular}></Logo>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
