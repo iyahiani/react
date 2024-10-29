@@ -1,36 +1,22 @@
-import logo from './logo.svg';
-import logoAngular from './logo-angular.svg';
+
 import './App.css';
-
-
-const AppLink = () => {
-  const name="React" ;
-  return (
-      <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-      >
-        Learn {name}
-      </a>
-  )
-}
-const Logo = ({img}) => <img src={img} className="App-logo" alt="logo" />
+import {Link} from "react-router-dom";
+import MyNavBar from "./components/NavBar";
 function App() {
-  const name="React"
   return (
-    <div className="App">
-      <header className="App-header">
-        <Logo img={logo}></Logo>
-          <Logo img={logoAngular}></Logo>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <AppLink></AppLink>
-      </header>
+
+    <div className="p-5 container-fluid">
+        <MyNavBar></MyNavBar>
+        <nav>
+            <ul className="list-group">
+                <li className="list-group-item"><a href="/">APP</a></li>
+                <li className="list-group-item"><a href="/css">TEST CSS </a></li>
+                <li className="list-group-item"><a href="/navbar">Navigation Bar </a></li>
+                <li className="list-group-item"><a href="/ariane">Blog </a></li>
+            </ul>
+        </nav>
     </div>
+
   );
 }
-
 export default App;

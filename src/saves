@@ -1,0 +1,62 @@
+import {useState, useEffect} from "react";
+
+const ComponentModel = ({title, link}) =>{
+    return (
+        <>
+            <a
+                className="App-link"
+                href= {link}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Learn {title}
+            </a> <br/>
+        </>
+    )
+}
+const Component = ({title, onClick, index,link,isSelected}) => <button onClick= {()=> onClick(title)}> learn {title}</button>
+const Title =({titre}) => <h1>{titre}</h1>
+
+function Counter ({count,increment}){
+    return (
+        <div >
+            <p>{count}</p>
+            <button className="Button" onClick={()=> increment(count => count +1 )}> Click me</button>
+        </div>
+    )
+}
+
+ const librairies =[
+    {title:'React',link : 'https://react.org'},
+    {title:'Vue',link : 'https://vuejs.org'},
+    {title:'Angular',link : 'https://angular.io'}
+]
+const [title,setTitle] = useState("React");
+    const [count1,setCounter1] = useState(0);
+    const [count2,setCounter2] = useState(0);
+    const [result, setResult] = useState(0);
+    useEffect(() => setResult(count2 + count1 ) , [count2,count1]);
+    const handleClick =(lib) => setTitle(lib)
+    useEffect(()=>{
+        document.title = {title}
+    },[title])
+
+    <div class="container py-3" >
+          <header  >
+            <Title class= "row d-flex justify-content-center align-items-center h-100" titre={title}></Title>
+                <br/>
+
+              {librairies.map((lib,i) => {
+              return (
+              <Component class="Button col-2 m-lg-0"  key={lib.link} link={lib.link} index={i} className= "Button" onClick={handleClick}  title={lib.title} ></Component>
+              )
+          })}
+              <div class="row col-10">
+                 <div class="col-6">
+                     <Counter class="Button  " count={count1} increment={setCounter1}></Counter>
+                 </div>
+                  <div class="col-6"><Counter class="Button" count={count2} increment={setCounter2}></Counter></div>
+              </div>
+              <h1> {result}</h1>
+          </header>
+        </div>

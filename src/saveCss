@@ -1,0 +1,49 @@
+<article class="col-12 col-md4 col-sm-6 col-lg-3">
+              mqs,cdknsqlcnqlksnclkqs,nddebet corrumpit docendi nobis sem sadipscing verterem adversarium inciderint sociosqu cu conubia montes fabellas habeo delenit ius nominavi singulis ubique ceteros libero nam causae eloquentiam senectus vivendo habitant aptent dolore libris honestatis primis aliquet invenire conceptam neque percipit utinam discere quod vis class ut constituam rhoncus condimentum laudem detracto fabulas sapientem quas splendide movet an ipsum turpis explicari enim cubilia class maiestatis donec adipiscing oporteat varius duo maiestatis tractatos tacimates ante option ubique elitr persecuti
+          </article>
+              <article class=" col-12 col-md4 col-sm-6 col-lg-3">
+              qsdfqsfsqfqsf Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+           Lorep rticle class=" col-4 offset-2">
+          qsdfqsfsqfqsf
+      </article>
+          <article className="col-12 col-md4 col-sm-6 col-lg-3">
+              qsdfqsfsqfqsf Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+              Lorep rticle class=" col-4 offset-2">
+              qsdfqsfsqfqsf
+          </article>
+          <article className="col-12 col-md4 col-sm-6 col-lg-3">
+              qsdfqsfsqfqsf Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+              Lorep rticle class=" col-4 offset-2">
+              qsdfqsfsqfqsf
+          </article>
+
+           <section className="row g-3 gy-3">
+                    <div className="col-12 col-md-9">
+                       <article className="row">
+                           <figure className="col-12 col-md-4">
+                              <img className="img-fluid rounded" src="./montagnes.jpg" alt= "angular" />
+                           </figure>
+                           <div className="col-12 col-md-8">
+                               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,</p>
+                           </div>
+                       </article>
+                        <article className="row">
+                            <figure className="col-12 col-md-4">
+                                <img src="./montagnes.jpg" alt= "angular" className="img-fluid img-thumbnail"/>
+                            </figure>
+                            <div className="col-12 col-md-8">
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                /// flex
+
+                <section className="bg-warning m-5 d-flex flex-column flex-md-row-reverse" >
+                            <div className="border border-primary p-3">neque volumus in duis dolorum partiendo tincidunt nonumy </div>
+                            <div className="border border-primary p-3">neque volumus in duis dolorum partiendo tincidunt nonumy </div>
+                            <div className="border border-primary p-3">neque volumus in duis dolorum partiendo tincidunt nonumy </div>
+                            <div className="border border-primary p-3">neque volumus in duis dolorum partiendo tincidunt nonumy </div>
+                            <div className="border border-primary p-3">neque volumus in duis dolorum partiendo tincidunt nonumy </div>
+                        </section>
