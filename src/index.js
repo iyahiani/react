@@ -18,17 +18,17 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <Router>
         <Routes>
-            <Route path="/" element={<App/>}>
+            <Route path="/" Component={App}>
             </Route>
-            <Route path="/css" element={<TestCss/>}>
+            <Route path="/css" Component={TestCss}>
             </Route>
-            <Route path="/navbar" element={<MyNavBar/>}>
+            <Route path="/navbar" Component={MyNavBar}>
             </Route>
-            <Route path="/ariane" element={<MyFileAriane/>}>
+            <Route path="/ariane" Component={MyFileAriane}>
             </Route>
-            <Route path="/cards" element={<MyCards/>}>
+            <Route path="/cards" Component={MyCards}>
             </Route>
-            <Route path="/forms" element={<MyFormulaire/>}>
+            <Route path="/forms" Component={MyFormulaire}>
             </Route>
         </Routes>
     </Router>
