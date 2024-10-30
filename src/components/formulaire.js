@@ -21,6 +21,27 @@ const MyFormulaire = () => {
                     <p>Sint deleniti laboriosam autem aperiam eos tenetur voluptatibus laudantium dolor dignissimos
                         perspiciatis iste ipsum maiores, asperiores corrupti necessitatibus distinctio? Mollitia maiores
                         quis consequatur quia architecto. Beatae debitis ad delectus neque!</p>
+                    <button className="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#panneau"> Panneau1
+                    </button>
+                    <div className="collapse border p-3" id="panneau">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                    </div>
+                    <div className="accordion pt-2">
+                        <div className="accordion-item">
+                            <h2 className="accordion-header">
+                                <button type="button" className="accordion-button" data-bs-toggle="collapse"
+                                        data-bs-target="#section">Accordéon
+                                </button>
+                            </h2>
+                            <section className="accordion-body collapse" id="section">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                                sanctus est Lorem ipsum dolor sit amet.
+                            </section>
+                        </div>
+
+                    </div>
                 </section>
                 <section className="col-12 col-md-6">
                     <form action="">
