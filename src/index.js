@@ -12,6 +12,7 @@ import MyFileAriane from "./components/fileAriane";
 import MyCards from "./components/cards";
 import MyFormulaire from "./components/formulaire";
 import MyModal from "./components/modal";
+import MyCarrousel from "./components/carrousel";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -31,6 +32,8 @@ root.render(
             <Route path="/forms" Component={MyFormulaire}>
             </Route>
             <Route path="/modal" Component={MyModal}>
+            </Route>
+            <Route path="/carousel" Component={MyCarrousel}>
             </Route>
         </Routes>
     </Router>

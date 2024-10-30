@@ -25,6 +25,10 @@ const MyPagination = () => {
                                                    className={({isActive}) => (isActive ? 'page-link active' : 'page-link')}>Modal </NavLink>
 
                 </li>
+                <li className="page-item"><NavLink to="/carousel"
+                                                   className={({isActive}) => (isActive ? 'page-link active' : 'page-link')}>Carousel </NavLink>
+
+                </li>
                 <li className="page-item"><NavLink to="/"
                                                    className={({isActive}) => (isActive ? 'page-link active' : 'page-link')}>&raquo;</NavLink>
                 </li>
