@@ -11,6 +11,7 @@ import MyNavBar from "./components/NavBar";
 import MyFileAriane from "./components/fileAriane";
 import MyCards from "./components/cards";
 import MyFormulaire from "./components/formulaire";
+import MyModal from "./components/modal";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -28,6 +29,8 @@ root.render(
             <Route path="/cards" Component={MyCards}>
             </Route>
             <Route path="/forms" Component={MyFormulaire}>
+            </Route>
+            <Route path="/modal" Component={MyModal}>
             </Route>
         </Routes>
     </Router>

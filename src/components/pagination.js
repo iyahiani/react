@@ -19,6 +19,11 @@ const MyPagination = () => {
                 </li>
                 <li className="page-item"><NavLink to="/forms"
                                                    className={({isActive}) => (isActive ? 'page-link active' : 'page-link')}>Formaulaire </NavLink>
+
+                </li>
+                <li className="page-item"><NavLink to="/modal"
+                                                   className={({isActive}) => (isActive ? 'page-link active' : 'page-link')}>Modal </NavLink>
+
                 </li>
                 <li className="page-item"><NavLink to="/"
                                                    className={({isActive}) => (isActive ? 'page-link active' : 'page-link')}>&raquo;</NavLink>
