@@ -5,8 +5,10 @@ const TestCss = () => {
 
     return (
         <div>
-            <MyPagination></MyPagination>
-            <body>
+            <div>
+                <MyPagination></MyPagination>
+            </div>
+
             <section className="bg-warning m-5 d-flex flex-column flex-md-row-reverse">
                 <div className="border border-primary p-3">neque volumus in duis dolorum partiendo tincidunt nonumy
                 </div>
@@ -46,7 +48,7 @@ const TestCss = () => {
                 <div className="border border-primary p-3">neque volumus in duis dolorum partiendo tincidunt nonumy
                 </div>
             </section>
-            </body>
+          
         </div>
     )
 }

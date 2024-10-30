@@ -1,15 +1,28 @@
+import {NavLink} from 'react-router-dom'
+
 const MyPagination = () => {
     return (
         <nav className="pt-2">
             <ul className="pagination justify-content-center">
                 <li className="page-item disabled"><a className="page-link" href="/">&laquo;</a></li>
-                <li className="page-item active"><a className="page-link" href="/">APP</a></li>
-                <li className="page-item"><a className="page-link" href="/css">TEST CSS </a></li>
-                <li className="page-item"><a className="page-link" href="/navbar">Navigation Bar </a></li>
-                <li className="page-item"><a className="page-link" href="/ariane">Blog </a></li>
-                <li className="page-item"><a className="page-link" href="/cards">Cartes </a></li>
-                <li className="page-item"><a className="page-link" href="/forms">Formaulaire </a></li>
-                <li className="page-item"><a className="page-link" href="/">&raquo;</a></li>
+                <li className="page-item"><NavLink to="/css"
+                                                   className={({isActive}) => (isActive ? 'page-link active' : 'page-link')}>TEST
+                    CSS </NavLink></li>
+                <li className="page-item"><NavLink to="/navbar"
+                                                   className={({isActive}) => (isActive ? 'page-link active' : 'page-link')}>Navigation
+                    Bar </NavLink></li>
+                <li className="page-item"><NavLink to="/ariane"
+                                                   className={({isActive}) => (isActive ? 'page-link active' : 'page-link')}>Blog </NavLink>
+                </li>
+                <li className="page-item"><NavLink to="/cards"
+                                                   className={({isActive}) => (isActive ? 'page-link active' : 'page-link')}>Cartes </NavLink>
+                </li>
+                <li className="page-item"><NavLink to="/forms"
+                                                   className={({isActive}) => (isActive ? 'page-link active' : 'page-link')}>Formaulaire </NavLink>
+                </li>
+                <li className="page-item"><NavLink to="/"
+                                                   className={({isActive}) => (isActive ? 'page-link active' : 'page-link')}>&raquo;</NavLink>
+                </li>
             </ul>
         </nav>
     )

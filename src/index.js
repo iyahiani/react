@@ -1,6 +1,5 @@
 import React from 'react';
 import './index.css';
-import App from './App';
 import ReactDOM from 'react-dom/client';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import TestCss from "./components/testCss";
@@ -18,7 +17,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <Router>
         <Routes>
-            <Route path="/" Component={App}>
+            <Route path="/" Component={MyCards}>
             </Route>
             <Route path="/css" Component={TestCss}>
             </Route>
