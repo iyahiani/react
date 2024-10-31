@@ -1,9 +1,9 @@
 import MyPagination from "./pagination";
-
+import MyNavBar from './NavBar'
 const MyFormulaire = () => {
     return (
         <div>
-            <MyPagination></MyPagination>
+            <MyNavBar></MyNavBar>
             <main className="container my-3">
                 <section className="row">
                     <nav className="col-12">

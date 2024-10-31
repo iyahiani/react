@@ -4,11 +4,11 @@ import video from '../images/video.jpg'
 import teching from '../images/teaching.jpg'
 import building from '../images/officeBuilding.jpg'
 import MyPagination from "./pagination";
-
+import MyNavBar from './NavBar'
 const MyCards = () => {
     return (
         <div>
-            <MyPagination></MyPagination>
+            <MyNavBar></MyNavBar>
             <div className="container-fluid my-3">
                 <section className="row mb-3">
                     <div className="col-12 col-lg-8">

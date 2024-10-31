@@ -68,24 +68,24 @@ const MyNavBar = () => {
                     <h2 className="offcanvas-title">Se connecter</h2>
                     <button className="btn btn-close" data-bs-dismiss="offcanvas"></button>
                 </div>
-                <div className="offcanvas-body">
-                    <div className="col-12 col-lg-6">
+                <div className="offcanvas-body ">
+                    <div className="col-12 col-lg-6 w-100">
                         <div className="mb-3 form-floating">
-                            <input type="text" id="name" className="form-control"
+                            <input type="text" id="name" className="form-control "
                                    placeholder="Votre Nom"/>
                             <label htmlFor="name"> Nom</label>
 
                         </div>
                     </div>
-                    <div className="col-12 col-lg-6">
+                    <div className="col-12 col-lg-6 w-100">
                         <div className="mb-3 form-floating">
-                            <input type="text" id="prenom" className="form-control"
+                            <input type="text" id="prenom" className="form-control "
                                    placeholder="Votre Prénom"/>
                             <label htmlFor="prenom"> Prénom</label>
 
                         </div>
                     </div>
-                    <div className="col-12 col-lg-6">
+                    <div className="col-12 col-lg-6 w-100">
                         <div className="mb-3 form-floating">
                             <input type="email" id="mail" className="form-control"
                                    placeholder="Votre Email"/>
@@ -102,8 +102,8 @@ const MyNavBar = () => {
                             </label>
                         </div>
                     </div>
-                    <div className="col-12 col-lg-6">
-                        <button className="btn btn-primary pt-2">Se connecter</button>
+                    <div className="col-12 col-lg-6 w-100" style={{display:"grid"}}>
+                        <button className="btn btn-primary m-3">Se connecter</button>
                     </div>
                 </div>
             </section>

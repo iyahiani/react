@@ -4,12 +4,12 @@ import chalet from '../images/chalet.jpg'
 import montagnes from '../images/montagnes.jpg'
 import riviere from '../images/riviere.jpg'
 import soiree from '../images/soiree.jpg'
-import MyPagination from "./pagination";
+import MyNavBar from './NavBar';
 
 const MyFileAriane = () => {
     return (
         <div>
-            <MyPagination></MyPagination>
+            <MyNavBar></MyNavBar>
             <div className="container-fluid">
                 <section className="row gy-3">
                     <div className="col-12 col-md-9">
@@ -123,7 +123,7 @@ const MyFileAriane = () => {
                             </article>
                         </div>
                     </div>
-                    <div className="col-12 col-md-3">
+                    <div className="col-12 col-md-3 p-5">
                         <section className="card">
                             <div className="card-header bg-primary text-white">
                                 <h1 className="h5"> Catégorie</h1>
