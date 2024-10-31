@@ -34,7 +34,7 @@ const MyFileAriane = () => {
                                         vero
                                         totam mollitia dicta.
                                         <p>
-                                            <a className="btn btn-primary ">
+                                            <a className="btn btn-primary my-3">
                                                 lire la suite
                                             </a>
                                         </p>
@@ -54,7 +54,7 @@ const MyFileAriane = () => {
                                         saepe
                                         vero
                                         totam mollitia dicta.
-                                        <p>
+                                        <p className="my-3">
                                             <a className="btn btn-primary ">
                                                 lire la suite
                                             </a>
@@ -75,7 +75,7 @@ const MyFileAriane = () => {
                                         saepe
                                         vero
                                         totam mollitia dicta.
-                                        <p>
+                                        <p className="my-3">
                                             <a className="btn btn-primary ">
                                                 lire la suite
                                             </a>
@@ -96,7 +96,7 @@ const MyFileAriane = () => {
                                         saepe
                                         vero
                                         totam mollitia dicta.
-                                        <p>
+                                        <p className="my-3">
                                             <a className="btn btn-primary ">
                                                 lire la suite
                                             </a>
@@ -117,7 +117,7 @@ const MyFileAriane = () => {
                                         saepe
                                         vero
                                         totam mollitia dicta.
-                                        <p>
+                                        <p className="my-3">
                                             <a className="btn btn-primary ">
                                                 lire la suite
                                             </a>
@@ -138,7 +138,7 @@ const MyFileAriane = () => {
                                         saepe
                                         vero
                                         totam mollitia dicta.
-                                        <p>
+                                        <p className="my-3">
                                             <a className="btn btn-primary ">
                                                 lire la suite
                                             </a>
