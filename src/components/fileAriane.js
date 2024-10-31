@@ -10,7 +10,7 @@ const MyFileAriane = () => {
     return (
         <div>
             <MyNavBar></MyNavBar>
-            <div className="container-fluid">
+            <div className="container">
                 <section className="row gy-3">
                     <div className="col-12 col-md-9">
                         <nav>
@@ -54,6 +54,11 @@ const MyFileAriane = () => {
                                         saepe
                                         vero
                                         totam mollitia dicta.
+                                        <p>
+                                            <a className="btn btn-primary ">
+                                                lire la suite
+                                            </a>
+                                        </p>
                                     </div>
                                 </div>
                             </article>
@@ -70,6 +75,11 @@ const MyFileAriane = () => {
                                         saepe
                                         vero
                                         totam mollitia dicta.
+                                        <p>
+                                            <a className="btn btn-primary ">
+                                                lire la suite
+                                            </a>
+                                        </p>
                                     </div>
                                 </div>
                             </article>
@@ -86,6 +96,11 @@ const MyFileAriane = () => {
                                         saepe
                                         vero
                                         totam mollitia dicta.
+                                        <p>
+                                            <a className="btn btn-primary ">
+                                                lire la suite
+                                            </a>
+                                        </p>
                                     </div>
                                 </div>
                             </article>
@@ -102,6 +117,11 @@ const MyFileAriane = () => {
                                         saepe
                                         vero
                                         totam mollitia dicta.
+                                        <p>
+                                            <a className="btn btn-primary ">
+                                                lire la suite
+                                            </a>
+                                        </p>
                                     </div>
                                 </div>
                             </article>
@@ -118,12 +138,17 @@ const MyFileAriane = () => {
                                         saepe
                                         vero
                                         totam mollitia dicta.
+                                        <p>
+                                            <a className="btn btn-primary ">
+                                                lire la suite
+                                            </a>
+                                        </p>
                                     </div>
                                 </div>
                             </article>
                         </div>
                     </div>
-                    <div className="col-12 col-md-3 p-5">
+                    <div className="col-12 col-md-3 p-3">
                         <section className="card">
                             <div className="card-header bg-primary text-white">
                                 <h1 className="h5"> Catégorie</h1>
