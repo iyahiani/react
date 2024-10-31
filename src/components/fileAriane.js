@@ -15,8 +15,8 @@ const MyFileAriane = () => {
                     <div className="col-12 col-md-9">
                         <nav>
                             <ol className="breadcrumb">
-                                <li className="breadcrumb-item"><a href="/">Accueil</a></li>
-                                <li className="breadcrumb-item">Blog</li>
+                                <li className="breadcrumb-item"><a href="/ariane" target="_blank">Accueil</a></li>
+                                <li className="breadcrumb-item"><a href="/forms" target="_blank"></a>Blog</li>
                             </ol>
                         </nav>
                         <div className="list-group list-group-flush my-3">

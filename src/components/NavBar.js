@@ -1,12 +1,10 @@
 import logo from '../images/one2Learn-Logo.png'
 import MyPagination from "./pagination";
+import {NavLink} from "react-router-dom";
 
 const MyNavBar = () => {
     return (
         <div>
-            <div>
-                <MyPagination></MyPagination>
-            </div>
             <header className="navbar navbar-expand-lg navbar-light bg-light px-3">
                 <a href="#" className=" navbar-brand">
                     <img className="img-fluid object-fit-contain h-50" src={logo} alt="LOGO"/>
@@ -18,18 +16,24 @@ const MyNavBar = () => {
                 <div className="collapse navbar-collapse" id="navbar">
                     <nav>
                         <ul className="navbar-nav ms-auto">
-                            <li className="nav-item"><a href="#" target="_blank"
-                                                        className="nav-link active"> Accueil</a>
+                            <li className="nav-item">
+                                <NavLink to="/ariane"
+                                         className={({isActive}) => (isActive ? 'nav-link active' : 'nav-link')}>Accueil </NavLink>
                             </li>
-                            <li className="nav-item"><a href="#" target="_blank" className="nav-link"> Blog </a></li>
+                            <li className="nav-item"><NavLink to="/forms"
+                                                              className={({isActive}) => (isActive ? 'nav-link active' : 'nav-link')}>Formulaire </NavLink></li>
+                            <li className="nav-item"><NavLink to="/cards"
+                                                              className={({isActive}) => (isActive ? 'nav-link active' : 'nav-link')}>Cartes </NavLink></li>
+                            <li className="nav-item"><NavLink to="/carousel"
+                                                              className={({isActive}) => (isActive ? 'nav-link active' : 'nav-link')}>Caroussel </NavLink></li>
                             <li className="nav-item dropdown"><a href="#" target="_blank"
                                                                  className="nav-link dropdown-toggle"
                                                                  data-bs-toggle="dropdown"> A propos</a>
-                                <ul className="dropdown-menu">
+                                <ul className="dropdown-menu dropdown-menu-end">
                                     <li className="nav-item"><a href="#" target="_blank"
                                                                 className="dropdown-item"> Item1 </a>
                                     </li>
-                                    <li className="nav-item"><a href="#" target="_blank"
+                                    <li className="nav-item "><a href="#" target="_blank"
                                                                 className="dropdown-item"> Item2 </a>
                                     </li>
                                     <li className="nav-item"><a href="#" target="_blank"
