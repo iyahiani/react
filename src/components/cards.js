@@ -9,7 +9,7 @@ const MyCards = () => {
     return (
         <div>
             <MyNavBar></MyNavBar>
-            <div className="container-fluid my-3">
+            <div className="container my-3">
                 <section className="row mb-3">
                     <div className="col-12 col-lg-8">
                         <img src={building} alt="offfice" className="img-fluid rounded"/>

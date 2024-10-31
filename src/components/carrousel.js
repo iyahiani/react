@@ -2,10 +2,12 @@ import coding from '../images/coding.jpg'
 import mixing from '../images/mixing.jpg'
 import video from '../images/video.jpg'
 import teching from '../images/teaching.jpg'
+import MyNavBar from "./NavBar";
 
 const MyCarrousel = () => {
     return (
         <div>
+            <MyNavBar></MyNavBar>
             <body>
             <div className="container">
                 <div className="col-8 offset-2">

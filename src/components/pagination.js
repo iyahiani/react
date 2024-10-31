@@ -5,10 +5,7 @@ const MyPagination = () => {
         <nav className="pt-2">
             <ul className="pagination justify-content-center">
                 <li className="page-item disabled"><a className="page-link" href="/">&laquo;</a></li>
-               
-                <li className="page-item"><NavLink to="/navbar"
-                                                   className={({isActive}) => (isActive ? 'page-link active' : 'page-link')}>Navigation
-                    Bar </NavLink></li>
+
                 <li className="page-item"><NavLink to="/ariane"
                                                    className={({isActive}) => (isActive ? 'page-link active' : 'page-link')}>Blog </NavLink>
                 </li>
